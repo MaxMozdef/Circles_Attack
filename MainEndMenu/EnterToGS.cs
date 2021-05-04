@@ -29,7 +29,7 @@ public class EnterToGS : MonoBehaviour
             }
             else
             {
-                Debug.Log("Fail!!!!Bliat!!!");
+                Debug.Log("Fail!fsdfsdfsiat!!!");
             }
         });
     }   
