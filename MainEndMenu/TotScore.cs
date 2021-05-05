@@ -34,16 +34,9 @@ public class TotScore : MonoBehaviour
         totalScoreAllString.text = "MY TOTAL E-SCORE " + totalScoreAllInt;        
     }   
 
-
-
     public void MainMenu()
     {
         SceneManager.LoadScene(0);
     }
-    public void ShowLeaderBoard()
-    {
-        //Social.ShowLeaderboardUI();
-        PlayGamesPlatform.Instance.ShowLeaderboardUI("CgkIoMmeuboKEAIQAA");
-
-    }
+    
 }

@@ -13,11 +13,7 @@ public class MainMenu : MonoBehaviour
     public void GlobalScore()
     {
         SceneManager.LoadScene(3);
-    }
-    public void Shop()
-    {
-        
-    }
+    }    
 
     public void FAQ()
     {

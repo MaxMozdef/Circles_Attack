@@ -1,9 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using GooglePlayGames;
 using GooglePlayGames.BasicApi;
-using UnityEngine.SocialPlatforms;
 
 public class EnterToGS : MonoBehaviour
 {
@@ -29,7 +26,7 @@ public class EnterToGS : MonoBehaviour
             }
             else
             {
-                Debug.Log("Fail!fsdfsdfsiat!!!");
+                Debug.Log("Fail!");
             }
         });
     }   
