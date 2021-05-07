@@ -36,7 +36,7 @@ public class ScoreCtrl : MonoBehaviour
 
 
             PlayerPrefs.SetInt("gameScore", gameScore);
-            Social.ReportScore(scriptTotScore.totalScoreAllInt, scriptTotScore.leaderBoard, (bool success) => { });
+            
         }
         
     }
